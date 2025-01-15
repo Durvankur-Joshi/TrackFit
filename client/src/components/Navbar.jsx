@@ -136,6 +136,7 @@ const Navbar = ({ currentUser }) => {
         <Mobileicon onClick={() => setisOpen(!isOpen)}>
           <MenuRounded sx={{ color: "inherit" }} />
         </Mobileicon>
+        
         <NavLogo to="/">
           <Logo src={LogoImg} />
           TrackFit
