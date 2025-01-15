@@ -1,7 +1,7 @@
 import jwt from "jsonwebtoken";
 import { createError } from "../error.js";
 
-export const verifyToken = async (req, res, next) => {
+export const verifyToken = async (req, next) => {
   try {
     if (!req.headers.authorization) {
       return next(createError(401, "You are not authenticated!"));
