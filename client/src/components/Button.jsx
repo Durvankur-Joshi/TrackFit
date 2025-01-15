@@ -96,6 +96,7 @@ const button = ({
           style={{ width: "18px", height: "18px", color: "inherit" }}
         />
       )}
+      
       {leftIcon}
       {text}
       {isLoading && <> . . .</>}
